@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body{
+    background-image: url(/images/clem-onojeghuo-6tedMQIJpNI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+
+}
+.container{
+    margin:8%;
+    width: 90%;
+    max-width: 700px;
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    background: white;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+    border-bottom: 4px #750d22 solid;
+    width: 380px;
+}
+.container h1 span{
+    color:#750d22;
+    font-size: 50px;
+    
+
+}
+.fa-solid{
+    width: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    color: #750d22;
+}
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+}
+.container button .fa-bolt{
+    width: 28px;
+    margin-right: 10px;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    background-color: #750d22;
+    color: white;
+    padding: 16px 26px;
+    font-size: 22px;
+    font-weight: 300;
+    border-radius: 5px;
+    cursor: pointer;
+}
